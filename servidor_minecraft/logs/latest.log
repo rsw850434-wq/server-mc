@@ -1,0 +1,21 @@
+[01:35:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:35:29] [Worker-Main-1/INFO]: No existing world data, creating new world
+[01:35:30] [ServerMain/INFO]: Loaded 1515 recipes
+[01:35:30] [ServerMain/INFO]: Loaded 1617 advancements
+[01:35:31] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[01:35:31] [Server thread/INFO]: Loading properties
+[01:35:31] [Server thread/INFO]: Default game type: SURVIVAL
+[01:35:31] [Server thread/INFO]: Generating keypair
+[01:35:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:35:31] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[01:35:31] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with error(-98): Address already in use
+[01:35:31] [Server thread/WARN]: Perhaps a server is already running on that port?
+[01:35:31] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:796)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[01:35:31] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server-mc/servidor_minecraft/crash-reports/crash-2026-08-17_01.35.31-server.txt
+[01:35:31] [Server thread/INFO]: Stopping server
+[01:35:31] [Server thread/INFO]: Saving worlds
+[01:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

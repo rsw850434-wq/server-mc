@@ -1,0 +1,59 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2026-08-17 01:35:31
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:796)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 26.1.2
+	Minecraft Version ID: 26.1.2
+	Operating System: Linux (amd64) version 6.8.0-1052-azure
+	Java Version: 25.0.3, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1441895808 bytes (1375 MiB) / 2147483648 bytes (2048 MiB) up to 5368709120 bytes (5120 MiB)
+	Memory (heap): init: 2048MiB, used: 670MiB, committed: 2048MiB, max: 5120MiB
+	Memory (non-head): init: 007MiB, used: 111MiB, committed: 112MiB, max: 000MiB
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 9V74 80-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 17 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 3972.27
+	Virtual memory used (MiB): 6344.89
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 39923.29, total: 45046.83
+	Space in storage for workdir (MiB): available: 18947.12, total: 32077.81
+	JVM Flags: 2 total; -Xms2G -Xmx5G
+	Debug Flags: 0 total; 
+	Server Running: true
+	Active Data Packs: vanilla
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 6072853567254841154
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server
